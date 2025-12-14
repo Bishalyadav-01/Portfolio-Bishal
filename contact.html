@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | My Portfolio</title>
-     <link rel="icon" type="images" href="bishal.png">
+    <link rel="icon" type="images" href="images/bishal.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="contact-body">
@@ -24,12 +24,17 @@
         <div class="contact-container">
             <h2>Let’s Get in Touch</h2>
             <p>Feel free to reach out for collaborations, freelance opportunities, or just to say hello!</p>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="5" placeholder="Your Message"></textarea>
-                <button type="submit" class="btn primary-btn">Send Message</button>
-            </form>
+
+            <form name="contact" method="POST" action="/success.html" data-netlify="true" class="contact-form" netlify>
+    <input type="hidden" name="form-name" value="contact">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <input type="text" name="bot-field" style="display:none">
+    <button type="submit" class="btn primary-btn1">Send Message</button>
+</form>
+
+
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/bishal-yd-0506m/" target="_blank">LinkedIn</a>
                 <a href="https://www.facebook.com/vishal.yadav.615638" target="_blank">Facebook</a>
@@ -40,7 +45,7 @@
     </section>
 
     <footer>
-        <p>© 2025 Bishal Pd Yadav — Crafted with elegance</p>
+        <p>© 2025 Bishal Pd Yadav - Crafted with elegance</p>
     </footer>
 </body>
 </html>
