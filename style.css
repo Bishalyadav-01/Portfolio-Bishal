@@ -482,3 +482,52 @@ footer {
     padding: 10px 18px;
   }
 }
+
+.success-box {
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 420px;
+  background: #e9ffff;
+  border-left: 5px solid #00b8a9;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.success-box span {
+  font-size: 1.6rem;
+}
+
+.success-box p {
+  margin: 0;
+  color: #007b8e;
+  font-weight: 500;
+}
+.social-links1 a {
+  color: #007b8e;
+  margin: 0 10px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.social-links1 {
+  margin: 10px auto;
+  padding: 5px;
+  max-width: 170px;
+  background: #e9ffff;
+  border-left: 5px solid #00b8a9;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.primary-btn1 {
+  background: #00b8a9;
+  color: #fff;
+}
+.primary-btn1:hover {
+  background: #007b8e;
+  transform: translateY(-1px);
+}
