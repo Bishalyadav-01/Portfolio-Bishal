@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="contact-body">
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
     <header>
         <nav class="navbar">
             <h1 class="logo">MyPortfolio</h1>
@@ -16,24 +20,27 @@
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#skills">Skills</a></li>
                 <li><a href="index.html#projects">Projects</a></li>
+                <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button></li>
             </ul>
         </nav>
     </header>
 
     <section class="section contact-page fade-in">
         <div class="contact-container">
-            <h2>Let’s Get in Touch</h2>
+            <h2>Let's Get in Touch</h2>
             <p>Feel free to reach out for collaborations, freelance opportunities, or just to say hello!</p>
 
             <form name="contact" method="POST" action="/success.html" data-netlify="true" class="contact-form" netlify>
-    <input type="hidden" name="form-name" value="contact">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <input type="text" name="bot-field" style="display:none">
-    <button type="submit" class="btn primary-btn1">Send Message</button>
-</form>
-
+                <input type="hidden" name="form-name" value="contact">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="text" name="bot-field" style="display:none">
+                <button type="submit" class="btn primary-btn1">Send Message</button>
+            </form>
 
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/bishal-yd-0506m/" target="_blank">LinkedIn</a>
@@ -47,5 +54,7 @@
     <footer>
         <p>© 2025 Bishal Pd Yadav - Crafted with elegance</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
