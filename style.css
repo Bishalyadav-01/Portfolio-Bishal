@@ -374,7 +374,6 @@ header {
   height: auto;
   animation: float 7s ease-in-out infinite;
   transition: all 0.4s ease;
-  margin-left: 150px;
 }
 
 @keyframes float {
