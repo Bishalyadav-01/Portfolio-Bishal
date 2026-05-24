@@ -1181,6 +1181,7 @@ footer {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 
 
 /* ===== PERFORMANCE & CURSOR OPTIMIZATION ===== */
@@ -1344,3 +1345,5 @@ transition:
 .lightbox.show img {
   transform: translate(-50%, -50%) scale(1);
 }
+=======
+>>>>>>> 3de4808330c48a3c8aa5885b47f549c0bb63d793
