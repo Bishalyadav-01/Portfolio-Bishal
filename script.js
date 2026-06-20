@@ -62,17 +62,35 @@ const projectData = {
         image: 'images/1762533191930.jpg',
         link: 'https://github.com/Bishalyadav-01/Portfolio-Bishal'
     },
+
     '2': {
         title: 'Photography Portfolio',
         description: 'A curated collection of photography and editing projects displayed in a clean gallery layout with captions.',
         image: 'photographs/1755242000846.jpg',
         link: 'photography.html'
     },
+
     '3': {
         title: 'Magazine Cover Page',
         description: 'Designed and created the cover page for my school annual magazine with modern typography and creative layout.',
         image: 'photographs/new 2560_copy_7680x10269_1.jpg',
         link: '#'
+    },
+
+    '4': {
+        title: 'PneumoScan AI',
+        description:
+            'Built and deployed a full-stack AI-powered pneumonia screening platform using FastAPI, Next.js, Tailwind CSS and Scikit-Learn. The application provides real-time pneumonia risk prediction through a clean and responsive interface.',
+        image: 'images/1779595927258.jpeg',
+        link: 'https://pneumoscan-ai-ashy.vercel.app/'
+    },
+
+    '5': {
+        title: 'KarigarConnect',
+        description:
+            'AI-powered B2B creator economy platform built with Next.js, Gemini AI, Sentence Transformers, Scikit-Learn and KNN Retrieval. Uses semantic search and intelligent matching to connect brands with creators.',
+        image: 'images/karigar.png',
+        link: 'https://content-generator-hackfluence-seven.vercel.app/'
     }
 };
 
